@@ -7,3 +7,13 @@ for i in l:
         l2.append(i) 
 print(l2)
 ......//
+
+Qn 02. Write a program to remove duplicates in string?
+//.....
+s="hai hello how"
+s1=""
+for i in s:
+    if i not in s1:
+        s1+=i
+print(s1)
+.....//
