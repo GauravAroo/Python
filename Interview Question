@@ -1,0 +1,9 @@
+Qn 01. Write a program to remove duplicate in list?
+//.......
+l=[11,22,33,44,55,78,54,98,75,98,22,44]
+l2=[]
+for i in l:
+    if i not in l2:
+        l2.append(i) 
+print(l2)
+......//
